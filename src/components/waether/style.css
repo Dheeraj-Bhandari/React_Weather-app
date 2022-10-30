@@ -207,3 +207,16 @@ body {
 #madewithlove span{
   color: red;
 }
+
+@media screen and (max-width: 600px) {
+ 
+  .widget {
+    border-radius: 20px;
+    box-shadow: 0 27px 55px 0 rgb(0 0 0 / 30%), 0 17px 17px 0 rgb(0 0 0 / 15%);
+    cursor: pointer;
+    /* display: flex; */
+    flex-wrap: wrap;
+    height: 400px;
+    /* width: 650px; */
+}
+}
